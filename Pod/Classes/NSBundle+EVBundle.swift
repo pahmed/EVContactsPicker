@@ -16,7 +16,7 @@ public extension NSBundle {
     
     public class func evAssetsBundle() -> NSBundle {
         let path : NSString = NSBundle.evBundle().resourcePath! as NSString
-        let assetPath = path.stringByAppendingPathComponent("EVContactsPickerAssets.bundle")
+        let assetPath = path.stringByAppendingPathComponent("EVContactsPicker.bundle/EVContactsPickerAssets.bundle")
         return NSBundle(path: assetPath)!
 
     }
